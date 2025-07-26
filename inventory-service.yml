@@ -1,0 +1,4 @@
+inventory:
+  params:
+    a: 11
+    b: 22
