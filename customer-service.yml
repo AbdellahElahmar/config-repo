@@ -4,6 +4,14 @@ spring:
   h2:
     console:
       enabled: true
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
 customer:
   params:
     x: 1111
